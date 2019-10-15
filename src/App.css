@@ -1,22 +1,46 @@
-.App {
-  text-align: center;
+.Section{
+ display:flex;
+ flex-direction:column;
 }
 
-.App-logo {
-  height: 40vmin;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.container {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  width: 90%;
+  font-family: Georgia;
+  justify-content: space-between;
+  text-align: left;
+  border-bottom: 2px solid grey;
+  margin: 30px;
 }
 
-.App-link {
-  color: #09d3ac;
+.article-date {
+  flex: 0 0 10%;
+  font-family: Georgia;
+  color:grey;
+}
+
+.article-content {
+  flex-direction: column;
+  font-family: Georgia;
+  font-weight: normal;
+  flex-wrap: wrap;
+  flex: 0 0 65%;
+}
+
+.article-content p{
+  font-family: Georgia;
+ 
+}
+
+.article-image {
+  flex: 0 0 10%;
+}
+
+.article-content div {
+  width: 100%;
+}
+
+.one {
+  font-family: Georgia;
+  color:grey; 
 }
